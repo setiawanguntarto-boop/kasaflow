@@ -30,6 +30,12 @@ const Header = () => {
             Tentang
           </Link>
           <Link 
+            to="/kenapa-kasaflow"
+            className="text-foreground/80 hover:text-primary transition-colors font-medium"
+          >
+            Kenapa Kasaflow
+          </Link>
+          <Link 
             to="/cara-kerja"
             className="text-foreground/80 hover:text-primary transition-colors font-medium"
           >
@@ -71,6 +77,13 @@ const Header = () => {
             className="block w-full text-center py-3 text-sm text-foreground hover:bg-accent transition-colors"
           >
             Tentang
+          </Link>
+          <Link 
+            to="/kenapa-kasaflow"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block w-full text-center py-3 text-sm text-foreground hover:bg-accent transition-colors"
+          >
+            Kenapa Kasaflow
           </Link>
           <Link 
             to="/cara-kerja"
