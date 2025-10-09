@@ -1,5 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import KasaflowMockup from "@/components/KasaflowMockup";
+import PokuMockup from "@/components/PokuMockup";
+import TrakiMockup from "@/components/TrakiMockup";
 
 const EcosystemSection = () => {
   return (
@@ -81,38 +84,11 @@ const EcosystemSection = () => {
         {/* Three Cards */}
         <div className="relative grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 lg:gap-16 justify-items-center relative z-10">
           {/* Card 1: Kasaflow */}
-          <div className="w-full bg-card p-6 rounded-2xl shadow-card transition-smooth hover:shadow-lg hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-2 border-primary max-w-[380px]">
-            <h3 className="text-2xl font-bold mb-3 text-primary">Kasaflow</h3>
+          <div className="w-full bg-card p-6 rounded-2xl shadow-card transition-smooth hover:shadow-lg hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in max-w-[380px]">
+            <h3 className="text-2xl font-bold mb-4 text-primary">Kasaflow</h3>
             
-            <div className="mockup-frame mb-4 w-full relative">
-              <div className="absolute top-0 right-0 m-4 z-20">
-                <svg className="w-5 h-5" fill="none" stroke="hsl(var(--primary))" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" strokeWidth="2">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <div className="mockup-screen whatsapp-bg flex flex-col">
-                <div className="whatsapp-header p-3 flex items-center text-white text-sm font-semibold border-b border-gray-100">
-                  <span className="bg-white rounded-full w-6 h-6 mr-3 flex items-center justify-center text-xs font-bold text-[#00A884]">K</span>
-                  <span className="flex-grow text-base">Kasaflow BOT</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-auto">
-                    <circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/>
-                  </svg>
-                </div>
-                <div className="chat-scroll overflow-y-auto p-3 text-sm space-y-2">
-                  <div className="flex justify-start">
-                    <span className="agent-bubble p-2 max-w-[90%]">Selamat datang di Kasaflow! Asisten digital Anda untuk manajemen panen singkong. Nomor Anda terdaftar sebagai <b>Budi (Field Officer)</b>.</span>
-                  </div>
-                  <div className="flex justify-start">
-                    <span className="agent-bubble p-2 max-w-[90%]">Menu:<br/><b>1. Ajukan Panen</b><br/><b>2. Verifikasi Lapang</b><br/><b>3. Penimbangan</b></span>
-                  </div>
-                  <div className="flex justify-end">
-                    <span className="user-bubble p-2 max-w-[80%]">1<span className="timestamp ml-2">9:30</span></span>
-                  </div>
-                  <div className="flex justify-start">
-                    <span className="agent-bubble p-2 max-w-[90%]">✅ ID Panen <b>PANEN-123</b> dibuat. Status <code>PENDING_VERIF</code>.</span>
-                  </div>
-                </div>
-              </div>
+            <div className="mb-4 flex justify-center">
+              <KasaflowMockup />
             </div>
             
             <p className="text-sm text-muted-foreground font-medium pt-2">
@@ -121,38 +97,11 @@ const EcosystemSection = () => {
           </div>
 
           {/* Card 2: PoKu */}
-          <div className="w-full bg-card p-6 rounded-2xl shadow-card transition-smooth hover:shadow-lg hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-2 border-primary max-w-[380px]">
-            <h3 className="text-2xl font-bold mb-3 text-primary">PoKu (Poin Pelanggan)</h3>
+          <div className="w-full bg-card p-6 rounded-2xl shadow-card transition-smooth hover:shadow-lg hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in max-w-[380px]">
+            <h3 className="text-2xl font-bold mb-4 text-primary">PoKu (Poin Pelanggan)</h3>
             
-            <div className="mockup-frame mb-4 w-full relative">
-              <div className="absolute top-0 right-0 m-4 z-20">
-                <svg className="w-5 h-5" fill="none" stroke="hsl(var(--primary))" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" strokeWidth="2">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <div className="mockup-screen whatsapp-bg flex flex-col">
-                <div className="whatsapp-header p-3 flex items-center text-white text-sm font-semibold border-b border-gray-100">
-                  <span className="bg-white rounded-full w-6 h-6 mr-3 flex items-center justify-center text-xs font-bold text-[#00A884]">P</span>
-                  <span className="flex-grow text-base">Loyalitas PoKu BOT</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-auto">
-                    <circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/>
-                  </svg>
-                </div>
-                <div className="chat-scroll overflow-y-auto p-3 text-sm space-y-2">
-                  <div className="flex justify-start">
-                    <span className="agent-bubble p-2 max-w-[85%]">Selamat datang di LoyalKasaflow 👋<br/>Program loyalty pelanggan KasaFlow.</span>
-                  </div>
-                  <div className="flex justify-end">
-                    <span className="user-bubble p-2 max-w-[80%]">1<span className="timestamp ml-2">10:05</span></span>
-                  </div>
-                  <div className="flex justify-start">
-                    <span className="agent-bubble p-2 max-w-[85%]">Ranking Anda saat ini: <b>#4 dari 100 customer</b>.<br/>Periode: Sep 2025.</span>
-                  </div>
-                  <div className="flex justify-start">
-                    <span className="agent-bubble p-2 max-w-[85%]">Total pengambilan Anda: ➡️ <b>3.720 kg</b>.</span>
-                  </div>
-                </div>
-              </div>
+            <div className="mb-4 flex justify-center">
+              <PokuMockup />
             </div>
             
             <p className="text-sm text-muted-foreground font-medium pt-2">
@@ -161,41 +110,11 @@ const EcosystemSection = () => {
           </div>
 
           {/* Card 3: Traki */}
-          <div className="w-full bg-card p-6 rounded-2xl shadow-card transition-smooth hover:shadow-lg hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-2 border-primary max-w-[380px]">
-            <h3 className="text-2xl font-bold mb-3 text-primary">Traki</h3>
+          <div className="w-full bg-card p-6 rounded-2xl shadow-card transition-smooth hover:shadow-lg hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in max-w-[380px]">
+            <h3 className="text-2xl font-bold mb-4 text-primary">Traki</h3>
             
-            <div className="mockup-frame mb-4 w-full relative">
-              <div className="absolute top-0 right-0 m-4 z-20">
-                <svg className="w-5 h-5" fill="none" stroke="hsl(var(--primary))" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" strokeWidth="2">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-              </div>
-              <div className="mockup-screen whatsapp-bg flex flex-col">
-                <div className="whatsapp-header p-3 flex items-center text-white text-sm font-semibold border-b border-gray-100">
-                  <span className="bg-white rounded-full w-6 h-6 mr-3 flex items-center justify-center text-xs font-bold text-[#00A884]">T</span>
-                  <span className="flex-grow text-base">Traki Logistics Agent</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-auto">
-                    <circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/>
-                  </svg>
-                </div>
-                <div className="chat-scroll overflow-y-auto p-3 text-sm space-y-2">
-                  <div className="flex justify-end">
-                    <span className="user-bubble p-2 max-w-[80%]">/sewa_traktor<span className="timestamp ml-2">11:10</span></span>
-                  </div>
-                  <div className="flex justify-start">
-                    <span className="agent-bubble p-2 max-w-[80%]">Permintaan sewa diterima. Kebutuhan alat (Traktor) dari data Kasaflow: <b>PANEN-123</b>.</span>
-                  </div>
-                  <div className="flex justify-start">
-                    <span className="agent-bubble p-2 max-w-[80%]">Jadwal tersedia: <b>tgl 15 Okt</b>. Biaya Rp 500rb/hari. Konfirmasi?</span>
-                  </div>
-                  <div className="flex justify-end">
-                    <span className="user-bubble p-2 max-w-[80%]">Ya, konfirmasi<span className="timestamp ml-2">11:11</span></span>
-                  </div>
-                  <div className="flex justify-start">
-                    <span className="agent-bubble p-2 max-w-[80%]">✅ Penyewaan Traktor tgl 15 Okt berhasil.</span>
-                  </div>
-                </div>
-              </div>
+            <div className="mb-4 flex justify-center">
+              <TrakiMockup />
             </div>
             
             <p className="text-sm text-muted-foreground font-medium pt-2">
