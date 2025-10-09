@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Header from "@/components/Header";
 import WhatsAppMockup from "@/components/WhatsAppMockup";
 import FeatureCard from "@/components/FeatureCard";
+import EcosystemSection from "@/components/EcosystemSection";
 
 const Index = () => {
 
@@ -45,6 +46,9 @@ const Index = () => {
             </div>
           </div>
         </section>
+
+        {/* Ecosystem Section */}
+        <EcosystemSection />
 
       </main>
 
