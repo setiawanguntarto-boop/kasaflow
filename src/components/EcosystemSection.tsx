@@ -1,9 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-
 const EcosystemSection = () => {
-  return (
-    <section className="py-24 px-6 md:px-8 bg-background overflow-hidden ecosystem-bg">
+  return <section className="py-24 px-6 md:px-8 bg-background overflow-hidden ecosystem-bg">
       <div className="max-w-7xl mx-auto relative">
         {/* Header */}
         <header className="text-center mb-16 relative z-10">
@@ -19,19 +17,19 @@ const EcosystemSection = () => {
             <div className="relative w-80 h-64 md:w-[900px] md:h-[550px] flex items-center justify-center">
               <svg width="100%" height="100%" viewBox="0 0 160 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="absolute">
                 {/* Data Flow Arrows */}
-                <path d="M10 100 C 30 90, 45 80, 60 70" stroke="hsl(var(--primary))" strokeWidth="2" strokeLinecap="round" className="connector-line"/>
-                <circle cx="10" cy="100" r="3" fill="hsl(var(--primary))"/>
-                <path d="M63 70 L59 66 M63 70 L59 74" stroke="hsl(var(--primary))" strokeWidth="2" strokeLinecap="round"/>
+                <path d="M10 100 C 30 90, 45 80, 60 70" stroke="hsl(var(--primary))" strokeWidth="2" strokeLinecap="round" className="connector-line" />
+                <circle cx="10" cy="100" r="3" fill="hsl(var(--primary))" />
+                <path d="M63 70 L59 66 M63 70 L59 74" stroke="hsl(var(--primary))" strokeWidth="2" strokeLinecap="round" />
                 
-                <path d="M10 60 C 30 60, 45 50, 60 50" stroke="hsl(var(--primary))" strokeWidth="2" strokeLinecap="round" className="connector-line"/>
-                <circle cx="10" cy="60" r="3" fill="hsl(var(--primary))"/>
-                <path d="M63 50 L59 46 M63 50 L59 54" stroke="hsl(var(--primary))" strokeWidth="2" strokeLinecap="round"/>
+                <path d="M10 60 C 30 60, 45 50, 60 50" stroke="hsl(var(--primary))" strokeWidth="2" strokeLinecap="round" className="connector-line" />
+                <circle cx="10" cy="60" r="3" fill="hsl(var(--primary))" />
+                <path d="M63 50 L59 46 M63 50 L59 54" stroke="hsl(var(--primary))" strokeWidth="2" strokeLinecap="round" />
                 
-                <path d="M150 100 C 130 90, 115 80, 100 70" stroke="hsl(var(--primary))" strokeWidth="2" strokeLinecap="round" className="connector-line"/>
-                <circle cx="150" cy="100" r="3" fill="hsl(var(--primary))"/>
-                <path d="M97 70 L101 66 M97 70 L101 74" stroke="hsl(var(--primary))" strokeWidth="2" strokeLinecap="round"/>
+                <path d="M150 100 C 130 90, 115 80, 100 70" stroke="hsl(var(--primary))" strokeWidth="2" strokeLinecap="round" className="connector-line" />
+                <circle cx="150" cy="100" r="3" fill="hsl(var(--primary))" />
+                <path d="M97 70 L101 66 M97 70 L101 74" stroke="hsl(var(--primary))" strokeWidth="2" strokeLinecap="round" />
                 
-                <rect x="25" y="100" width="110" height="2" rx="1" fill="#444444"/>
+                <rect x="25" y="100" width="110" height="2" rx="1" fill="#444444" />
               </svg>
 
               {/* Laptop Body */}
@@ -54,13 +52,17 @@ const EcosystemSection = () => {
                         <p className="text-base">✅ 98% Verifikasi Lapang</p>
                         <p className="text-base">📍 12 Desa Terkoneksi</p>
                       </div>
-                      <div className="bg-muted/50 border border-border p-5 rounded animate-pulse-data" style={{animationDelay: '1s'}}>
+                      <div className="bg-muted/50 border border-border p-5 rounded animate-pulse-data" style={{
+                      animationDelay: '1s'
+                    }}>
                         <h5 className="text-primary font-bold mb-2 text-lg">PoKu</h5>
                         <p className="font-semibold text-xl">⭐ 6.200 Anggota Loyalti</p>
                         <p className="text-base">📊 Retensi 90%</p>
                         <p className="text-base">💰 Rata-rata Poin 750</p>
                       </div>
-                      <div className="bg-muted/50 border border-border p-5 rounded animate-pulse-data" style={{animationDelay: '2s'}}>
+                      <div className="bg-muted/50 border border-border p-5 rounded animate-pulse-data" style={{
+                      animationDelay: '2s'
+                    }}>
                         <h5 className="text-primary font-bold mb-2 text-lg">Traki</h5>
                         <p className="font-semibold text-xl">🚜 45 Unit aktif</p>
                         <p className="text-base">⏱️ Siklus 4.5 jam</p>
@@ -96,7 +98,7 @@ const EcosystemSection = () => {
                   <span className="bg-white rounded-full w-6 h-6 mr-3 flex items-center justify-center text-xs font-bold text-[#00A884]">K</span>
                   <span className="flex-grow text-base">Kasaflow Agent</span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-auto">
-                    <circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/>
+                    <circle cx="12" cy="12" r="1" /><circle cx="12" cy="5" r="1" /><circle cx="12" cy="19" r="1" />
                   </svg>
                 </div>
                 <div className="chat-scroll overflow-y-auto p-3 text-sm space-y-2">
@@ -104,7 +106,7 @@ const EcosystemSection = () => {
                     <span className="agent-bubble p-2 max-w-[90%]">Selamat datang di Kasaflow! Asisten digital Anda untuk manajemen panen singkong. Nomor Anda terdaftar sebagai <b>Budi (Field Officer)</b>.</span>
                   </div>
                   <div className="flex justify-start">
-                    <span className="agent-bubble p-2 max-w-[90%]">Menu:<br/><b>1. Ajukan Panen</b><br/><b>2. Verifikasi Lapang</b><br/><b>3. Penimbangan</b></span>
+                    <span className="agent-bubble p-2 max-w-[90%]">Menu:<br /><b>1. Ajukan Panen</b><br /><b>2. Verifikasi Lapang</b><br /><b>3. Penimbangan</b></span>
                   </div>
                   <div className="flex justify-end">
                     <span className="user-bubble p-2 max-w-[80%]">1<span className="timestamp ml-2">9:30</span></span>
@@ -123,7 +125,7 @@ const EcosystemSection = () => {
 
           {/* Card 2: PoKu */}
           <div className="w-full bg-card p-6 rounded-2xl shadow-card transition-smooth hover:shadow-lg hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-2 border-primary max-w-[380px]">
-            <h3 className="text-2xl font-bold mb-3 text-primary">PoKu (Poin Pelanggan)</h3>
+            <h3 className="text-2xl font-bold mb-3 text-primary">PoKu</h3>
             <p className="text-xs font-semibold text-primary/70 -mt-2 mb-3">AI-Powered Agent</p>
             
             <div className="mockup-frame mb-4 w-full relative">
@@ -137,18 +139,18 @@ const EcosystemSection = () => {
                   <span className="bg-white rounded-full w-6 h-6 mr-3 flex items-center justify-center text-xs font-bold text-[#00A884]">P</span>
                   <span className="flex-grow text-base">Loyalitas PoKu Agent</span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-auto">
-                    <circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/>
+                    <circle cx="12" cy="12" r="1" /><circle cx="12" cy="5" r="1" /><circle cx="12" cy="19" r="1" />
                   </svg>
                 </div>
                 <div className="chat-scroll overflow-y-auto p-3 text-sm space-y-2">
                   <div className="flex justify-start">
-                    <span className="agent-bubble p-2 max-w-[85%]">Selamat datang di LoyalKasaflow 👋<br/>Program loyalty pelanggan KasaFlow.</span>
+                    <span className="agent-bubble p-2 max-w-[85%]">Selamat datang di LoyalKasaflow 👋<br />Program loyalty pelanggan KasaFlow.</span>
                   </div>
                   <div className="flex justify-end">
                     <span className="user-bubble p-2 max-w-[80%]">1<span className="timestamp ml-2">10:05</span></span>
                   </div>
                   <div className="flex justify-start">
-                    <span className="agent-bubble p-2 max-w-[85%]">Ranking Anda saat ini: <b>#4 dari 100 customer</b>.<br/>Periode: Sep 2025.</span>
+                    <span className="agent-bubble p-2 max-w-[85%]">Ranking Anda saat ini: <b>#4 dari 100 customer</b>.<br />Periode: Sep 2025.</span>
                   </div>
                   <div className="flex justify-start">
                     <span className="agent-bubble p-2 max-w-[85%]">Total pengambilan Anda: ➡️ <b>3.720 kg</b>.</span>
@@ -178,7 +180,7 @@ const EcosystemSection = () => {
                   <span className="bg-white rounded-full w-6 h-6 mr-3 flex items-center justify-center text-xs font-bold text-[#00A884]">T</span>
                   <span className="flex-grow text-base">Traki Logistics Agent</span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-auto">
-                    <circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/>
+                    <circle cx="12" cy="12" r="1" /><circle cx="12" cy="5" r="1" /><circle cx="12" cy="19" r="1" />
                   </svg>
                 </div>
                 <div className="chat-scroll overflow-y-auto p-3 text-sm space-y-2">
@@ -219,8 +221,6 @@ const EcosystemSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default EcosystemSection;
