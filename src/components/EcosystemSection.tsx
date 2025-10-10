@@ -93,7 +93,7 @@ const EcosystemSection = () => {
               <div className="mockup-screen whatsapp-bg flex flex-col">
                 <div className="whatsapp-header p-3 flex items-center text-white text-sm font-semibold border-b border-gray-100">
                   <span className="bg-white rounded-full w-6 h-6 mr-3 flex items-center justify-center text-xs font-bold text-[#00A884]">K</span>
-                  <span className="flex-grow text-base">Kasaflow BOT</span>
+                  <span className="flex-grow text-base">Kasaflow Agent</span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-auto">
                     <circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/>
                   </svg>
@@ -133,7 +133,7 @@ const EcosystemSection = () => {
               <div className="mockup-screen whatsapp-bg flex flex-col">
                 <div className="whatsapp-header p-3 flex items-center text-white text-sm font-semibold border-b border-gray-100">
                   <span className="bg-white rounded-full w-6 h-6 mr-3 flex items-center justify-center text-xs font-bold text-[#00A884]">P</span>
-                  <span className="flex-grow text-base">Loyalitas PoKu BOT</span>
+                  <span className="flex-grow text-base">Loyalitas PoKu Agent</span>
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="ml-auto">
                     <circle cx="12" cy="12" r="1"/><circle cx="12" cy="5" r="1"/><circle cx="12" cy="19" r="1"/>
                   </svg>
