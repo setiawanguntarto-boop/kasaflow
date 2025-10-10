@@ -122,7 +122,10 @@ const EcosystemSection = () => {
           </div>
 
           {/* Card 2: PoKu */}
-          <div className="w-full bg-gradient-to-br from-purple-100 to-pink-100 p-6 rounded-2xl shadow-card transition-smooth hover:shadow-xl hover:shadow-purple-500/30 hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-4 border-purple-600 max-w-[380px]">
+          <div className="w-full bg-gradient-to-br from-purple-100 to-pink-100 p-6 rounded-2xl shadow-card transition-smooth hover:shadow-xl hover:shadow-purple-500/30 hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-4 border-purple-600 max-w-[380px] relative">
+            <div className="absolute -top-3 -right-3 bg-orange-500 text-white text-xs font-bold px-4 py-1 rounded-full shadow-lg z-10">
+              Coming Soon
+            </div>
             <h3 className="text-2xl font-bold mb-3 text-purple-700">PoKu</h3>
             <p className="text-xs font-semibold text-white -mt-2 mb-3 bg-gradient-to-r from-purple-600 to-pink-600 px-4 py-2 rounded-full">🤖 AI-Powered Agent</p>
             
@@ -163,7 +166,10 @@ const EcosystemSection = () => {
           </div>
 
           {/* Card 3: Traki */}
-          <div className="w-full bg-gradient-to-br from-purple-100 to-pink-100 p-6 rounded-2xl shadow-card transition-smooth hover:shadow-xl hover:shadow-purple-500/30 hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-4 border-purple-600 max-w-[380px]">
+          <div className="w-full bg-gradient-to-br from-purple-100 to-pink-100 p-6 rounded-2xl shadow-card transition-smooth hover:shadow-xl hover:shadow-purple-500/30 hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-4 border-purple-600 max-w-[380px] relative">
+            <div className="absolute -top-3 -right-3 bg-orange-500 text-white text-xs font-bold px-4 py-1 rounded-full shadow-lg z-10">
+              Coming Soon
+            </div>
             <h3 className="text-2xl font-bold mb-3 text-purple-700">Traki</h3>
             <p className="text-xs font-semibold text-white -mt-2 mb-3 bg-gradient-to-r from-purple-600 to-pink-600 px-4 py-2 rounded-full">🤖 AI-Powered Agent</p>
             
