@@ -70,9 +70,7 @@ const EcosystemSection = () => {
                       </div>
                     </div>
                     
-                    <p className="text-sm text-foreground/80 font-medium mt-auto pt-4 italic text-center w-full px-4">
-                      Data sinkron dari 12 desa — 5 permintaan alat, 3 panen baru, 2 loyalti aktif diperbarui.
-                    </p>
+                    
                   </div>
                 </div>
               </div>
