@@ -83,9 +83,9 @@ const EcosystemSection = () => {
         {/* Three Cards */}
         <div className="relative grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 lg:gap-16 justify-items-center relative z-10">
           {/* Card 1: Kasaflow */}
-          <div className="w-full bg-card p-6 rounded-2xl shadow-card transition-smooth hover:shadow-lg hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-2 border-accent bg-accent/5 max-w-[380px]">
-            <h3 className="text-2xl font-bold mb-3 text-accent">Kasaflow</h3>
-            <p className="text-xs font-semibold text-accent/70 -mt-2 mb-3 bg-accent/10 px-3 py-1 rounded-full">📊 ERP-Integrated Feature</p>
+          <div className="w-full bg-blue-50 p-6 rounded-2xl shadow-card transition-smooth hover:shadow-lg hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-4 border-blue-500 max-w-[380px]">
+            <h3 className="text-2xl font-bold mb-3 text-blue-700">Kasaflow</h3>
+            <p className="text-xs font-semibold text-white -mt-2 mb-3 bg-blue-600 px-4 py-2 rounded-full">📊 ERP-Integrated Feature</p>
             
             <div className="mockup-frame mb-4 w-full relative">
               <div className="absolute top-0 right-0 m-4 z-20">
@@ -124,9 +124,9 @@ const EcosystemSection = () => {
           </div>
 
           {/* Card 2: PoKu */}
-          <div className="w-full bg-gradient-to-br from-purple-500/10 to-pink-500/10 p-6 rounded-2xl shadow-card transition-smooth hover:shadow-lg hover:shadow-purple-500/20 hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-2 border-purple-500 max-w-[380px]">
-            <h3 className="text-2xl font-bold mb-3 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">PoKu</h3>
-            <p className="text-xs font-semibold text-purple-600 -mt-2 mb-3 bg-purple-500/20 px-3 py-1 rounded-full">🤖 AI-Powered Agent</p>
+          <div className="w-full bg-gradient-to-br from-purple-100 to-pink-100 p-6 rounded-2xl shadow-card transition-smooth hover:shadow-xl hover:shadow-purple-500/30 hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-4 border-purple-600 max-w-[380px]">
+            <h3 className="text-2xl font-bold mb-3 text-purple-700">PoKu</h3>
+            <p className="text-xs font-semibold text-white -mt-2 mb-3 bg-gradient-to-r from-purple-600 to-pink-600 px-4 py-2 rounded-full">🤖 AI-Powered Agent</p>
             
             <div className="mockup-frame mb-4 w-full relative">
               <div className="absolute top-0 right-0 m-4 z-20">
@@ -165,9 +165,9 @@ const EcosystemSection = () => {
           </div>
 
           {/* Card 3: Traki */}
-          <div className="w-full bg-gradient-to-br from-purple-500/10 to-pink-500/10 p-6 rounded-2xl shadow-card transition-smooth hover:shadow-lg hover:shadow-purple-500/20 hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-2 border-purple-500 max-w-[380px]">
-            <h3 className="text-2xl font-bold mb-3 bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">Traki</h3>
-            <p className="text-xs font-semibold text-purple-600 -mt-2 mb-3 bg-purple-500/20 px-3 py-1 rounded-full">🤖 AI-Powered Agent</p>
+          <div className="w-full bg-gradient-to-br from-purple-100 to-pink-100 p-6 rounded-2xl shadow-card transition-smooth hover:shadow-xl hover:shadow-purple-500/30 hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-4 border-purple-600 max-w-[380px]">
+            <h3 className="text-2xl font-bold mb-3 text-purple-700">Traki</h3>
+            <p className="text-xs font-semibold text-white -mt-2 mb-3 bg-gradient-to-r from-purple-600 to-pink-600 px-4 py-2 rounded-full">🤖 AI-Powered Agent</p>
             
             <div className="mockup-frame mb-4 w-full relative">
               <div className="absolute top-0 right-0 m-4 z-20">
