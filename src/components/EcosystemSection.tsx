@@ -11,7 +11,7 @@ const EcosystemSection = () => {
             Ekosistem <span className="text-primary">Kasaflow</span> by <span className="text-purple-600">Naraflow</span>
           </h2>
           <p className="text-lg md:text-xl max-w-3xl mx-auto text-muted-foreground animate-fade-in">
-            Sistem Agent WhatsApp terpadu: data lapangan, loyalitas pelanggan (PoKu), dan logistik pertanian, semua terhubung.
+            Integrasi ERP yang sempurna dengan Agent WhatsApp cerdas: Kasaflow untuk manajemen data lapangan, PoKu Agent untuk loyalitas pelanggan, dan Traki Agent untuk logistik pertanian.
           </p>
           
           {/* Dashboard Visualization */}
@@ -83,6 +83,7 @@ const EcosystemSection = () => {
           {/* Card 1: Kasaflow */}
           <div className="w-full bg-card p-6 rounded-2xl shadow-card transition-smooth hover:shadow-lg hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-2 border-primary max-w-[380px]">
             <h3 className="text-2xl font-bold mb-3 text-primary">Kasaflow</h3>
+            <p className="text-xs font-semibold text-primary/70 -mt-2 mb-3">ERP-Integrated Feature</p>
             
             <div className="mockup-frame mb-4 w-full relative">
               <div className="absolute top-0 right-0 m-4 z-20">
@@ -116,13 +117,14 @@ const EcosystemSection = () => {
             </div>
             
             <p className="text-sm text-muted-foreground font-medium pt-2">
-              Pencatatan Lapangan & Verifikasi Real-time. Input panen, verifikasi lahan, dan hasil timbang. Data real-time terpusat.
+              Fitur pelengkap ERP untuk pencatatan lapangan & verifikasi real-time. Input panen, verifikasi lahan, dan hasil timbang terintegrasi langsung dengan sistem ERP pusat.
             </p>
           </div>
 
           {/* Card 2: PoKu */}
           <div className="w-full bg-card p-6 rounded-2xl shadow-card transition-smooth hover:shadow-lg hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-2 border-primary max-w-[380px]">
             <h3 className="text-2xl font-bold mb-3 text-primary">PoKu (Poin Pelanggan)</h3>
+            <p className="text-xs font-semibold text-primary/70 -mt-2 mb-3">AI-Powered Agent</p>
             
             <div className="mockup-frame mb-4 w-full relative">
               <div className="absolute top-0 right-0 m-4 z-20">
@@ -156,13 +158,14 @@ const EcosystemSection = () => {
             </div>
             
             <p className="text-sm text-muted-foreground font-medium pt-2">
-              Loyalitas & Pemasaran Cerdas. Pemberian poin, rekapitulasi data, dan rekomendasi marketing berbasis analisis panen.
+              Agent cerdas untuk loyalitas & pemasaran otomatis. AI-driven customer engagement dengan pemberian poin otomatis, rekapitulasi data pelanggan, dan rekomendasi marketing berbasis analisis panen.
             </p>
           </div>
 
           {/* Card 3: Traki */}
           <div className="w-full bg-card p-6 rounded-2xl shadow-card transition-smooth hover:shadow-lg hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-2 border-primary max-w-[380px]">
             <h3 className="text-2xl font-bold mb-3 text-primary">Traki</h3>
+            <p className="text-xs font-semibold text-primary/70 -mt-2 mb-3">AI-Powered Agent</p>
             
             <div className="mockup-frame mb-4 w-full relative">
               <div className="absolute top-0 right-0 m-4 z-20">
@@ -199,7 +202,7 @@ const EcosystemSection = () => {
             </div>
             
             <p className="text-sm text-muted-foreground font-medium pt-2">
-              Manajemen Logistik Alat. Pengaturan jadwal, biaya sewa alat, dan notifikasi pengembalian otomatis berdasarkan kebutuhan panen.
+              Agent otomatis untuk manajemen logistik alat pertanian. AI mengatur jadwal optimal, koordinasi sewa alat, dan notifikasi pengembalian otomatis berdasarkan data kebutuhan panen real-time.
             </p>
           </div>
         </div>
