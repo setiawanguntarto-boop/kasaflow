@@ -81,7 +81,16 @@ const EcosystemSection = () => {
         {/* Three Cards */}
         <div className="relative grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 lg:gap-16 justify-items-center relative z-10">
           {/* Card 1: Kasaflow */}
-          <div className="w-full bg-[#F8FAF9] p-6 rounded-2xl shadow-card transition-smooth hover:shadow-lg hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-4 border-[#2E7D32] max-w-[380px]">
+          <div className="w-full bg-[#F8FAF9] p-6 rounded-2xl shadow-card transition-smooth hover:shadow-xl hover:shadow-[#2E7D32]/50 hover:-translate-y-2 flex flex-col items-center text-center animate-fade-in border-4 border-[#2E7D32] max-w-[380px] relative animate-pulse" style={{ animationDuration: '3s' }}>
+            {/* Try Now Badge */}
+            <div className="absolute -top-4 -right-4 z-10">
+              <div className="relative">
+                <div className="absolute inset-0 bg-[#2E7D32] rounded-full blur-lg animate-pulse"></div>
+                <div className="relative bg-gradient-to-r from-[#2E7D32] to-[#1B4332] text-white text-sm font-bold px-6 py-2 rounded-full shadow-lg animate-bounce" style={{ animationDuration: '2s' }}>
+                  🚀 Coba Sekarang!
+                </div>
+              </div>
+            </div>
             <h3 className="text-2xl font-bold mb-3 text-[#1B4332]">Kasaflow</h3>
             <p className="text-xs font-semibold text-white -mt-2 mb-3 bg-[#2E7D32] px-4 py-2 rounded-full">📊 ERP-Integrated Feature</p>
             
@@ -120,11 +129,14 @@ const EcosystemSection = () => {
               Fitur pelengkap ERP untuk pencatatan lapangan & verifikasi real-time. Input panen, verifikasi lahan, dan hasil timbang terintegrasi langsung dengan sistem ERP pusat.
             </p>
             
-            <Button size="sm" className="w-full bg-[#2E7D32] hover:bg-[#1B4332] text-white mt-auto" asChild>
-              <a href="https://wa.me/62881024280797" target="_blank" rel="noopener noreferrer">
-                💬 Simulasi Chat
-              </a>
-            </Button>
+            <div className="relative w-full mt-auto">
+              <div className="absolute inset-0 bg-[#2E7D32] rounded-md blur-md opacity-50 animate-pulse"></div>
+              <Button size="sm" className="w-full relative bg-[#2E7D32] hover:bg-[#1B4332] text-white shadow-lg hover:shadow-xl hover:shadow-[#2E7D32]/50 transform hover:scale-105 transition-all duration-300" asChild>
+                <a href="https://wa.me/62881024280797" target="_blank" rel="noopener noreferrer">
+                  💬 Simulasi Chat Sekarang
+                </a>
+              </Button>
+            </div>
           </div>
 
           {/* Card 2: PoKu */}
