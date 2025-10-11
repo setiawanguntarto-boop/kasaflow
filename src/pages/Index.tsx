@@ -13,9 +13,7 @@ const Index = () => {
         <section id="hero" className="py-16 md:py-24 gradient-section">
           <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
             <div className="text-center md:text-left animate-fade-in">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight mb-6">
-                Satu WhatsApp untuk seluruh proses panen singkong 🌿
-              </h1>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary leading-tight mb-6">Satu WhatsApp untuk Proses Panen Singkong</h1>
               <p className="text-lg md:text-xl text-muted-foreground mb-8 leading-relaxed">
                 Kasaflow mempermudah petugas lapangan mencatat pengajuan panen, verifikasi lahan, dan hasil timbang secara otomatis. Tidak perlu formulir manual, semua tercatat langsung lewat chat.
               </p>
@@ -29,13 +27,11 @@ const Index = () => {
               </div>
             </div>
             
-            <div className="relative animate-fade-in" style={{ animationDelay: '0.2s' }}>
+            <div className="relative animate-fade-in" style={{
+            animationDelay: '0.2s'
+          }}>
               <div className="relative rounded-2xl overflow-hidden shadow-soft hover:shadow-xl transition-smooth">
-                <img 
-                  src={cassavaHarvest} 
-                  alt="Petani singkong memuat hasil panen ke truk merah - proses panen singkong tradisional"
-                  className="w-full h-auto object-cover"
-                />
+                <img src={cassavaHarvest} alt="Petani singkong memuat hasil panen ke truk merah - proses panen singkong tradisional" className="w-full h-auto object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent"></div>
               </div>
               <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-primary/10 rounded-full blur-2xl"></div>
