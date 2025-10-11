@@ -116,9 +116,15 @@ const EcosystemSection = () => {
               </div>
             </div>
             
-            <p className="text-sm text-muted-foreground font-medium pt-2">
+            <p className="text-sm text-muted-foreground font-medium pt-2 mb-4">
               Fitur pelengkap ERP untuk pencatatan lapangan & verifikasi real-time. Input panen, verifikasi lahan, dan hasil timbang terintegrasi langsung dengan sistem ERP pusat.
             </p>
+            
+            <Button size="sm" className="w-full bg-blue-600 hover:bg-blue-700 text-white mt-auto" asChild>
+              <a href="https://wa.me/62881024280797" target="_blank" rel="noopener noreferrer">
+                💬 Simulasi Chat
+              </a>
+            </Button>
           </div>
 
           {/* Card 2: PoKu */}
