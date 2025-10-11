@@ -81,9 +81,9 @@ const EcosystemSection = () => {
         {/* Three Cards */}
         <div className="relative grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 lg:gap-16 justify-items-center relative z-10">
           {/* Card 1: Kasaflow */}
-          <div className="w-full bg-blue-50 p-6 rounded-2xl shadow-card transition-smooth hover:shadow-lg hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-4 border-blue-500 max-w-[380px]">
-            <h3 className="text-2xl font-bold mb-3 text-blue-700">Kasaflow</h3>
-            <p className="text-xs font-semibold text-white -mt-2 mb-3 bg-blue-600 px-4 py-2 rounded-full">📊 ERP-Integrated Feature</p>
+          <div className="w-full bg-[#F8FAF9] p-6 rounded-2xl shadow-card transition-smooth hover:shadow-lg hover:-translate-y-1 flex flex-col items-center text-center animate-fade-in border-4 border-[#2E7D32] max-w-[380px]">
+            <h3 className="text-2xl font-bold mb-3 text-[#1B4332]">Kasaflow</h3>
+            <p className="text-xs font-semibold text-white -mt-2 mb-3 bg-[#2E7D32] px-4 py-2 rounded-full">📊 ERP-Integrated Feature</p>
             
             <div className="mockup-frame mb-4 w-full relative">
               <div className="absolute top-0 right-0 m-4 z-20">
@@ -120,7 +120,7 @@ const EcosystemSection = () => {
               Fitur pelengkap ERP untuk pencatatan lapangan & verifikasi real-time. Input panen, verifikasi lahan, dan hasil timbang terintegrasi langsung dengan sistem ERP pusat.
             </p>
             
-            <Button size="sm" className="w-full bg-blue-600 hover:bg-blue-700 text-white mt-auto" asChild>
+            <Button size="sm" className="w-full bg-[#2E7D32] hover:bg-[#1B4332] text-white mt-auto" asChild>
               <a href="https://wa.me/62881024280797" target="_blank" rel="noopener noreferrer">
                 💬 Simulasi Chat
               </a>
