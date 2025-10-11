@@ -4,11 +4,8 @@ import Header from "@/components/Header";
 import WhatsAppMockup from "@/components/WhatsAppMockup";
 import FeatureCard from "@/components/FeatureCard";
 import EcosystemSection from "@/components/EcosystemSection";
-
 const Index = () => {
-
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       <Header />
       
       <main>
@@ -23,27 +20,16 @@ const Index = () => {
                 Kasaflow mempermudah petugas lapangan mencatat pengajuan panen, verifikasi lahan, dan hasil timbang secara otomatis. Tidak perlu formulir manual, semua tercatat langsung lewat chat.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                <Button 
-                  size="lg"
-                  className="gradient-hero text-primary-foreground shadow-soft hover:shadow-lg transition-smooth text-base px-8"
-                  onClick={() => window.open("https://wa.me/6287731771859", "_blank")}
-                >
+                <Button size="lg" className="gradient-hero text-primary-foreground shadow-soft hover:shadow-lg transition-smooth text-base px-8" onClick={() => window.open("https://wa.me/6287731771859", "_blank")}>
                   Coba Simulasi Chat
                 </Button>
-                <Button 
-                  size="lg"
-                  variant="outline"
-                  className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth text-base px-8"
-                  asChild
-                >
+                <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-smooth text-base px-8" asChild>
                   <Link to="/kontak">Hubungi Kasaflow</Link>
                 </Button>
               </div>
             </div>
             
-            <div className="flex justify-center">
-              <WhatsAppMockup />
-            </div>
+            
           </div>
         </section>
 
@@ -59,8 +45,6 @@ const Index = () => {
           <p className="text-sm text-primary-foreground/70">&copy; 2025 Kasaflow. All rights reserved.</p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
