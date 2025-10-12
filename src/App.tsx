@@ -9,6 +9,7 @@ import WhyKasaflow from "./pages/WhyKasaflow";
 import HowItWorks from "./pages/HowItWorks";
 import Principles from "./pages/Principles";
 import Contact from "./pages/Contact";
+import Dashboard from "./pages/Dashboard";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -26,6 +27,7 @@ const App = () => (
           <Route path="/cara-kerja" element={<HowItWorks />} />
           <Route path="/prinsip" element={<Principles />} />
           <Route path="/kontak" element={<Contact />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

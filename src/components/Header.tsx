@@ -23,6 +23,9 @@ const Header = () => {
           <Link to="/cara-kerja" className="text-foreground/80 hover:text-primary transition-colors font-medium">
             Cara Kerja
           </Link>
+          <Link to="/dashboard" className="text-foreground/80 hover:text-primary transition-colors font-medium">
+            Dashboard
+          </Link>
           
           <Button asChild className="gradient-hero text-primary-foreground shadow-soft">
             <Link to="/kontak">
@@ -51,6 +54,9 @@ const Header = () => {
           </Link>
           <Link to="/prinsip" onClick={() => setMobileMenuOpen(false)} className="block w-full text-center py-3 text-sm text-foreground hover:bg-accent transition-colors">
             Prinsip
+          </Link>
+          <Link to="/dashboard" onClick={() => setMobileMenuOpen(false)} className="block w-full text-center py-3 text-sm text-foreground hover:bg-accent transition-colors">
+            Dashboard
           </Link>
           <Link to="/kontak" onClick={() => setMobileMenuOpen(false)} className="block w-full text-center py-3 text-sm text-foreground hover:bg-accent transition-colors">
             Hubungi Kami
