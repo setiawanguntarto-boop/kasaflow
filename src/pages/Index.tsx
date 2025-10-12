@@ -30,10 +30,7 @@ const Index = () => {
             <div className="relative animate-fade-in" style={{
             animationDelay: '0.2s'
           }}>
-              <div className="relative rounded-2xl overflow-hidden shadow-soft hover:shadow-xl transition-smooth">
-                <img src={cassavaHarvest} alt="Petani singkong memuat hasil panen ke truk merah - proses panen singkong tradisional" className="w-full h-auto object-cover" />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent"></div>
-              </div>
+              
               <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-primary/10 rounded-full blur-2xl"></div>
               <div className="absolute -top-4 -right-4 w-32 h-32 bg-accent/30 rounded-full blur-2xl"></div>
             </div>
