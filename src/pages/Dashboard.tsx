@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
@@ -11,6 +12,7 @@ import {
   Menu,
   X,
   Search,
+  Home,
   ClipboardList,
   CheckCircle,
   Truck,
@@ -117,10 +119,18 @@ export default function Dashboard() {
               </ul>
             </nav>
           </div>
-          <button className="flex items-center space-x-3 rounded-lg px-3 py-2.5 text-gray-300 transition-colors hover:bg-[#128C7E] hover:text-white">
-            <LogOut className="h-5 w-5" />
-            <span>Logout</span>
-          </button>
+          <div className="space-y-2">
+            <Button variant="ghost" className="w-full justify-start text-gray-300 hover:bg-[#128C7E] hover:text-white" asChild>
+              <Link to="/">
+                <Home className="mr-3 h-5 w-5" />
+                <span>Menu Utama</span>
+              </Link>
+            </Button>
+            <button className="flex w-full items-center space-x-3 rounded-lg px-3 py-2.5 text-gray-300 transition-colors hover:bg-[#128C7E] hover:text-white">
+              <LogOut className="h-5 w-5" />
+              <span>Logout</span>
+            </button>
+          </div>
         </div>
       </aside>
 
@@ -137,12 +147,20 @@ export default function Dashboard() {
         {/* Header */}
         <header className="sticky top-0 z-10 bg-card p-4 shadow-sm">
           <div className="flex items-center justify-between">
-            <button
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="text-foreground md:hidden"
-            >
-              {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-            </button>
+            <div className="flex items-center space-x-4">
+              <button
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                className="text-foreground md:hidden"
+              >
+                {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+              </button>
+              <Button variant="outline" size="sm" asChild className="hidden md:flex">
+                <Link to="/">
+                  <Home className="mr-2 h-4 w-4" />
+                  Kembali ke Menu Utama
+                </Link>
+              </Button>
+            </div>
             <h2 className="hidden text-xl font-semibold text-foreground md:block">
               Selamat Datang, Admin! 👋
             </h2>
