@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import FeatureCard from "@/components/FeatureCard";
 import EcosystemSection from "@/components/EcosystemSection";
 import cassavaHarvest from "@/assets/cassava-harvest.png";
+import heroIllustration from "@/assets/hero-illustration.png";
 const Index = () => {
   return <div className="min-h-screen">
       <Header />
@@ -30,7 +31,11 @@ const Index = () => {
             <div className="relative animate-fade-in" style={{
             animationDelay: '0.2s'
           }}>
-              
+              <img 
+                src={heroIllustration} 
+                alt="Kasaflow - Sistem Logistik Panen Singkong" 
+                className="w-full h-auto drop-shadow-2xl"
+              />
               <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-primary/10 rounded-full blur-2xl"></div>
               <div className="absolute -top-4 -right-4 w-32 h-32 bg-accent/30 rounded-full blur-2xl"></div>
             </div>
