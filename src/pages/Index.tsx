@@ -34,7 +34,8 @@ const Index = () => {
               <img 
                 src={heroIllustration} 
                 alt="Kasaflow - Sistem Logistik Panen Singkong" 
-                className="w-full h-auto drop-shadow-2xl"
+                className="w-full h-auto filter brightness-105 contrast-105"
+                style={{ mixBlendMode: 'normal' }}
               />
               <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-primary/10 rounded-full blur-2xl"></div>
               <div className="absolute -top-4 -right-4 w-32 h-32 bg-accent/30 rounded-full blur-2xl"></div>
